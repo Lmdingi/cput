@@ -1,10 +1,122 @@
-body{
-    margin: 0%;
+/* home page */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    color: rgb(255, 255, 255);
 }
-.bgimage{
-    
-    background-image: url(images/fl.jpg);
-    padding: 50vh;
-    background-repeat: no-repeat;
-    background-position-y:
+
+.hearder{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/fl.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 100px;
+}
+
+#homeh1{
+    background-color:rgba(0, 255, 255, 0.1);
+    font-size: 100px;
+}
+.pageslinks{
+    margin: 10px;
+}
+
+.links{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.links:hover{
+    border: 1px solid #00ff00;
+    background: #194b19;
+    transition: 0.5s;
+}
+
+/* lion's head page */
+.lionshead{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/lionbg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#headbox{
+    height: 350px;    
+}
+#headbox h1{
+    background-color:rgba(0, 255, 255, 0.1);
+    padding: 20px;
+    display: block;
+    text-align: center;
+
+}
+.aboutbox{
+    border: #ffffff;
+    display: inline-block;
+    position: absolute;
+    width: 48%;
+}
+.aboutbox h2{
+    padding: 20px;
+    text-align: center;
+}
+.aboutbox p{
+    padding: 20px;
+    text-align: right;
+}
+
+#gallary{
+    display: inline-block;
+    position: absolute;
+    width: 48%;
+    height: 320px;
+    right: 0px;
+}
+.images{
+    height: auto;
+    width: 250px;
+}
+#img1{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#img2{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+#img3{
+    display: inline-block;
+    position: absolute;
+    bottom: -30px;
+    right: 100px;
+}
+#img4{
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 }
